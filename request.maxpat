@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 639.0, 79.0, 612.0, 737.0 ],
+		"rect" : [ 488.0, 79.0, 766.0, 737.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,8 +44,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 250.0, 230.0, 121.0, 22.0 ],
-					"text" : "script npm install cap"
+					"patching_rect" : [ 250.0, 230.0, 127.0, 22.0 ],
+					"text" : "script npm install pcap"
 				}
 
 			}
@@ -88,7 +88,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 169.0, 349.0, 400.0, 220.0 ],
+					"patching_rect" : [ 169.0, 349.0, 461.0, 325.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -124,14 +124,16 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 57.0, 259.0, 123.0, 22.0 ],
+					"patching_rect" : [ 57.0, 259.0, 100.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
-					"text" : "node.script request.js"
+					"text" : "node.script req.js"
 				}
 
 			}
@@ -180,9 +182,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "request.js",
-				"bootpath" : "~/Desktop/Video Sculpture/video-sculpture-time-based-art/n4m practices/server request",
-				"patcherrelativepath" : "../n4m practices/server request",
+				"name" : "req.js",
+				"bootpath" : "~/Desktop/Video Sculpture/video-sculpture-time-based-art/server-request-3",
+				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
