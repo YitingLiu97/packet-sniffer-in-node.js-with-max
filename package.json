@@ -1,0 +1,14 @@
+{
+  "name": "server-request-3",
+  "version": "1.0.0",
+  "description": "packet sniffer node js ",
+  "main": "req.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pcap": "^3.1.0"
+  }
+}
