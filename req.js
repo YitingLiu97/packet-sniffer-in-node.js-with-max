@@ -1,3 +1,4 @@
+// this is needed for the node for max 
 const maxApi = require('max-api');
 
 const pcap = require('pcap');
@@ -20,9 +21,10 @@ pcap_session.on('packet', function (raw_packet) {
     console.log(packet);
 });
 
-
+//maxApi function corresponding to the Max
 maxApi.addHandler('makeRequest',function(){
     maxApi.print('working');
+    //sending the raw packet
     maxApi.outlet(packet);
 
 });
